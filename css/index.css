@@ -1,0 +1,42 @@
+ .fa {
+    padding: 3%;
+    font-size: 30px;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
+}
+
+/* GitHub */
+.fa-github {
+    color: white;
+}
+
+.centered-content {
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    line-height: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 25%;
+    border-radius: 3%;
+}
+
+body {
+    background: url("../assets/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
