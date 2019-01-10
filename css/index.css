@@ -20,19 +20,25 @@
     color: white;
 }
 
+/*LinkedIn*/
+.fa-linkedin {
+    color: white;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+}
+
 .centered-content {
-    margin: auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    line-height: 0.5;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 20%;
-    height: 25%;
-    border-radius: 3%;
+    margin: auto;
 }
 
 body {
